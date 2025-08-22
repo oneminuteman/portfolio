@@ -6,15 +6,15 @@
   <title>Victor Ireri — Portfolio</title>
   <meta name="description" content="Portfolio of Victor Ireri: Software Engineer, Fullstack Developer, Database Enthusiast." />
 
-  <!-- Open Graph (for previews) -->
+  <!-- Open Graph -->
   <meta property="og:title" content="Victor Ireri — Portfolio" />
   <meta property="og:description" content="Software Engineer skilled in Python, Java, React, SQL, and cybersecurity solutions." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://oneminuteman.github.io/portfolio/" />
-  <meta property="og:image" content="images\WhatsApp Image 2025-08-22 at 10.06.09 AM.jpeg" />
+  <meta property="og:image" content="images/profile.jpg" />
 
   <!-- Favicon -->
-  <link rel="icon" href="images\WhatsApp Image 2025-08-22 at 10.06.09 AM.jpeg" />
+  <link rel="icon" href="images/profile.jpg" />
 
   <!-- Bootstrap + Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,11 +23,11 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="bg-dark text-light">
   <!-- Nav -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Victor Ireri</a>
+      <a class="navbar-brand fw-bold text-primary" href="#">Victor Ireri</a>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,14 +42,14 @@
   </nav>
 
   <!-- Hero -->
-  <header class="py-5 bg-light border-bottom">
+  <header class="py-5 border-bottom border-secondary">
     <div class="container d-flex flex-column flex-lg-row align-items-center gap-4">
-      <img src="C:\Users\Hp\oneminuteman\projects\portfolio\images\WhatsApp Image 2025-08-22 at 10.06.09 AM.jpeg" alt="Victor Ireri headshot" class="rounded-circle hero-img" width="200">
+      <img src="images/profile.jpg" alt="Victor Ireri headshot" class="rounded-circle hero-img" width="200">
       <div>
-        <h1 class="display-5 fw-bold">Hi, I’m Victor Ireri</h1>
+        <h1 class="display-5 fw-bold text-primary">Hi, I’m Victor Ireri</h1>
         <p class="lead mb-3">A Software Engineer passionate about problem-solving, full-stack development, and building secure web experiences.</p>
         <a class="btn btn-primary btn-lg me-2" href="#projects"><i class="bi bi-rocket-takeoff"></i> See Projects</a>
-        <a class="btn btn-outline-secondary btn-lg" href="#contact"><i class="bi bi-envelope"></i> Contact</a>
+        <a class="btn btn-outline-light btn-lg" href="#contact"><i class="bi bi-envelope"></i> Contact</a>
       </div>
     </div>
   </header>
@@ -57,62 +57,50 @@
   <!-- About -->
   <section id="about" class="py-5">
     <div class="container">
-      <h2 class="mb-4">About Me</h2>
+      <h2 class="mb-4 text-primary">About Me</h2>
       <p>
-        As a dedicated Software Engineer with a passion for problem-solving, I am currently pursuing a Bachelor of Science in Computer Science at 
-        <strong>Jomo Kenyatta University of Agriculture and Technology</strong>, complemented by a 
+        I’m a dedicated Software Engineer pursuing a BSc in Computer Science at 
+        <strong>Jomo Kenyatta University of Agriculture and Technology</strong>, with a 
         <strong>Fullstack Software Engineering certificate from Moringa School</strong>.
       </p>
       <p>
-        I have hands-on experience in both <strong>full-stack development</strong> and <strong>database management</strong>. 
-        During my time as Technical Manager at Team Promises Agency, I developed and maintained an invoice management system 
-        handling hundreds of customer records while optimizing database queries for performance.
-      </p>
-      <p>
-        I’m proficient in <strong>Python, Java, React</strong>, and have practical experience with <strong>SQLite</strong> and <strong>MySQL</strong>. 
-        I’m eager to expand into modern platforms like <strong>PostgreSQL</strong> and containerization with <strong>Docker</strong>.
-      </p>
-      <p>
-        My projects, including an <strong>AI-powered Sentiment Analysis App</strong> and a <strong>cybersecurity platform (SecureNet.ai)</strong>, 
-        highlight my ability to solve real-world problems with technical expertise. 
-        I am also certified by IBM and NVIDIA in <strong>data fundamentals</strong> and <strong>AI</strong>.
+        Skilled in <strong>Python, Java, React</strong>, and database management with <strong>MySQL/SQLite</strong>. 
+        I’ve built real-world projects like an <strong>AI-powered Sentiment Analysis App</strong> and a <strong>cybersecurity platform (SecureNet.ai)</strong>.
       </p>
       <ul class="list-inline">
-        <li class="list-inline-item badge text-bg-dark me-1 mb-1">Python</li>
-        <li class="list-inline-item badge text-bg-dark me-1 mb-1">Java</li>
-        <li class="list-inline-item badge text-bg-dark me-1 mb-1">React</li>
-        <li class="list-inline-item badge text-bg-dark me-1 mb-1">JavaScript</li>
-        <li class="list-inline-item badge text-bg-dark me-1 mb-1">SQL</li>
-        <li class="list-inline-item badge text-bg-dark me-1 mb-1">Cybersecurity</li>
-        <li class="list-inline-item badge text-bg-dark me-1 mb-1">Docker (Basic)</li>
+        <li class="list-inline-item badge bg-primary me-1 mb-1">Python</li>
+        <li class="list-inline-item badge bg-primary me-1 mb-1">Java</li>
+        <li class="list-inline-item badge bg-primary me-1 mb-1">React</li>
+        <li class="list-inline-item badge bg-primary me-1 mb-1">JavaScript</li>
+        <li class="list-inline-item badge bg-primary me-1 mb-1">SQL</li>
+        <li class="list-inline-item badge bg-primary me-1 mb-1">Cybersecurity</li>
+        <li class="list-inline-item badge bg-primary me-1 mb-1">Docker (Basic)</li>
       </ul>
     </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="py-5 bg-light border-top border-bottom">
+  <section id="projects" class="py-5 border-top border-bottom border-secondary bg-secondary bg-opacity-10">
     <div class="container">
-      <h2 class="mb-4">Projects</h2>
+      <h2 class="mb-4 text-primary">Projects</h2>
       <div class="row g-4">
         <!-- Project 1 -->
         <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
+          <div class="card h-100 bg-dark text-light border-secondary shadow-sm">
             <img src="images/project1.jpg" class="card-img-top" alt="SecureNet AI screenshot">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">SecureNet.ai</h5>
-              <p class="card-text flex-grow-1">
-                A cybersecurity platform that scans for phishing attempts, fake websites, and email threats. 
-                Built with React, Django, and integrated APIs.
-              </p>
+              <p class="card-text flex-grow-1">Cybersecurity platform scanning phishing, fake websites, and email threats.</p>
               <div>
                 <a href="#" class="btn btn-primary btn-sm me-2" target="_blank">Live</a>
-                <a href="https://github.com/joshking-vs/secureNet-frontend" class="btn btn-outline-secondary btn-sm" target="_blank">Code</a>
+                <a href="https://github.com/joshking-vs/secureNet-frontend" class="btn btn-outline-light btn-sm" target="_blank">Code</a>
               </div>
             </div>
           </div>
         </div>
+        <!-- Add other projects as before -->
 
-        <!-- Project 2 -->
+         <!-- Project 2 -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm">
             <img src="images/project2.jpg" class="card-img-top" alt="Sentiment Analysis App screenshot">
@@ -154,36 +142,18 @@
   <!-- Contact -->
   <section id="contact" class="py-5">
     <div class="container">
-      <h2 class="mb-4">Contact Me</h2>
-      <form action="https://formspree.io/f/your_form_id" method="POST" class="row g-3 col-lg-8">
-        <div class="col-md-6">
-          <label class="form-label">Name</label>
-          <input name="name" class="form-control" required>
-        </div>
-        <div class="col-md-6">
-          <label class="form-label">Email</label>
-          <input name="email" type="email" class="form-control" required>
-        </div>
-        <div class="col-12">
-          <label class="form-label">Message</label>
-          <textarea name="message" rows="5" class="form-control" required></textarea>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-success"><i class="bi bi-send"></i> Send</button>
-        </div>
-      </form>
-      <p class="mt-3 text-muted">
-        Or email me directly: <a href="mailto:victorireri.dev@gmail.com">victorireri44@gmail.com</a>
-      </p>
+      <h2 class="mb-4 text-primary">Contact Me</h2>
+      <p><i class="bi bi-envelope"></i> Email: <a href="mailto:victorireri44@gmail.com" class="text-light">victorireri44@gmail.com</a></p>
+      <p><i class="bi bi-telephone"></i> Phone: <a href="tel:+254796380822" class="text-light">+254 796380822</a></p>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="py-4 text-center border-top">
+  <footer class="py-4 text-center border-top border-secondary">
     <div class="container small">
       © <span id="year"></span> Victor Ireri · 
-      <a href="https://www.linkedin.com/in/victor-ireri-17b152309/" target="_blank">LinkedIn</a> · 
-      <a href="https://github.com/oneminuteman" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/victor-ireri-17b152309/" target="_blank" class="text-primary">LinkedIn</a> · 
+      <a href="https://github.com/oneminuteman" target="_blank" class="text-primary">GitHub</a>
     </div>
   </footer>
 
